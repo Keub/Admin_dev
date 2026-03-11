@@ -1,17 +1,14 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>Redirecting...</title>
-    <script>
-      var seg   = window.location.pathname.split('/').slice(0, 2).join('/');
-      var rest  = window.location.pathname.slice(seg.length);
-      var query = window.location.search;
-      var hash  = window.location.hash;
-      window.location.replace(
-        window.location.origin + seg + '/#' + rest + query + hash
-      );
-    </script>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keub Admin Portal</title>
+    <script type="module" crossorigin src="/Admin_dev/assets/index-CsqT1O5s.js"></script>
+    <link rel="stylesheet" crossorigin href="/Admin_dev/assets/index-BPbRjyqV.css">
   </head>
-  <body></body>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
